@@ -1,1 +1,1 @@
-# config-snippets
+# Configuration Files
