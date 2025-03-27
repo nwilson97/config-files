@@ -1,0 +1,8 @@
+[Unit]
+Description=Scheduled Shutdown
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl poweroff
+
