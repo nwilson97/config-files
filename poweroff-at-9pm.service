@@ -4,4 +4,4 @@ After=network.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/systemctl poweroff
+ExecStart=/usr/sbin/poweroff
