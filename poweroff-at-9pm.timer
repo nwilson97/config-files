@@ -2,7 +2,7 @@
 Description=Run daily shutdown at 9:15 pm
 
 [Timer]
-OnCalendar=21:15:00  # Schedule shutdown at 09:15 pm every day
+OnCalendar=*-*-* 21:15:00
 Persistent=true
 
 [Install]
